@@ -1,0 +1,35 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <fstream>
+
+const double W = M_PI;
+const double TF = 3*2*M_PI/W;
+const double X0 = 3.21;
+const double V0 = 0.0;
+const int N = 2;
+
+void euler(std::vector<double> & data, double t, double h);
+void rk4(std::vector<double> & data, double t, double h);
+void f(int idx, double t, const std::vector<double> & y);
+
+
+int main (void)
+{
+
+  return 0;
+}
+
+
+void euler(std::vector<double> & data, double t, double h)
+{
+}
+
+void rk4(std::vector<double> & data, double t, double h)
+{
+}
+
+void f(int idx, double t, const std::vector<double> & y)
+{
+}
+
